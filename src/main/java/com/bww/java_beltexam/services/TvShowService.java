@@ -49,10 +49,6 @@ public class TvShowService {
 		return showRepo.save(show);
 	}
 
-	public List<Review> descRev() {
-		return revRepo.descRev();
-	}
-
 	public TvShow update(TvShow toUpdate, Long id) {
 		return showRepo.save(toUpdate);
 	}
